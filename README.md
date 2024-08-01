@@ -1,2 +1,3 @@
-# tutorial guanabara
- aprendendo a criar repositórios
+# Primeiro repositório GitHub
+ Estou aprendendo a criar repositórios.
+Em breve isso será um projeto real...
