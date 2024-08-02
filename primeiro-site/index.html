@@ -3,10 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site usando repositórios</title>
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
-    <h1>Título foda</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, libero quam magni vel quibusdam unde repudiandae dicta numquam id iure et illo minima! Reprehenderit vel temporibus, quidem sequi repellendus autem!</p>
+    <div>
+        <h1>Biggest Title</h1>
+        <h6>Smallest Title</h6>
+        <button>click the button</button>
+        <p>The < br > tag is an empty tag, because it doesn't have a closing tag. It breaks the line. Look:<br> I did it</p>
+        <p>We can make texts <em>italic</em> and <strong>bold</strong> in html</p>
+        <a href="www.youtube.com">Open Youtube</a>
+        <br>
+        <img src="https://images.app.goo.gl/MCFQPqGuTJL6W8ZL8" width="100" height="100">
+        <ol>
+            <li>This list</li>
+            <li>Enumerates</li>
+            <li>The items</li>
+        </ol>
+        <ul>
+            <li>This one</li>
+            <li>doesn't</li>
+        </ul>
+    </div>
+    
+     <form>
+      <fieldset>
+      <legend>User Info</legend>
+      <label for="name">Name:</label> <input id="name" type="text" placeholder="Ex: João">
+      <br>
+      <label for="birth">Birthdate: <input id="birth" type="date">
+      </fieldset>
+      
+      <fieldset>
+      <legend>Login Info</legend>
+      Password: <input type="password"><br>
+      Email: <input type="email" placeholder="joão123@gmail.com"><br>
+      </fieldset>
+      <br>
+      Comente:<br> <textarea rows="3" cols="15">Escreva um comentário</textarea>
+      <br>
+      <button class="cool_style">Send</button>
+     </form>
+     
+     <p class="cool_style">Classes are not unique, you can make a style paremeter and apply it to whatever you want</p>
+     <p id="important">Id's are unique, you can't add them to multiple elements. They are very useful for Javascript, but we shouldn't overuse them for style.</p>
+     <h2>Let's work with multiple selectors</h2>
+     <p>I can assign more than one style separating them by an underscore. <span class="firstStyle secondStyle">Look</span></p>
 </body>
 </html>
